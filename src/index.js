@@ -6,6 +6,8 @@ import Sample from './telemetry-sample'
 import readFileToBuffer from './utils/read-file-to-buffer'
 import telemetryFileLoader from './utils/telemetry-file-loader'
 import irsdkConstants from './irsdk-constants'
+import Blap from './blap'
+import BlapSample from './blap-sample'
 
 export {
   Telemetry,
@@ -13,5 +15,7 @@ export {
   irsdkConstants as constants,
   Sample,
   readFileToBuffer,
-  telemetryFileLoader
+  telemetryFileLoader,
+  Blap,
+  BlapSample
 }
